@@ -1,0 +1,38 @@
+.image-slider {
+  width: 100%;
+  height: 26.25rem;
+  background-color: #5c2e91;
+  color: #fff;
+  color: #3498db;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .slick-carousel{
+    display: flex;
+    &>div{
+        width: 100%;
+    }
+    image{
+        width: 100%;
+        height: 100%;
+      }
+  }
+  
+ 
+  span{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .left{
+    left: 1rem;
+  }
+  .right{
+    right: 1rem;
+  }
+}

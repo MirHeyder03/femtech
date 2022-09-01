@@ -1,0 +1,32 @@
+#top-header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 2rem;
+  width: 100%;
+}
+#top-header,
+#top-header a {
+  color: #15009b;
+}
+#et-secondary-menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  line-height: 2rem;
+
+  & > ul:nth-child(1) > li {
+    margin-right: 1rem;
+    margin-left: 0;
+  }
+  & > ul {
+    display: flex;
+    li {
+      margin-right: 1.5rem;
+      margin-left: 1rem;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+footer {
+  background-color: rgb(2, 3, 129);
+  color: #ffffff;
+  .footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    ul {
+      h3 {
+        margin-top: 3rem;
+      }
+      li {
+        margin-top: 0.75rem;
+      }
+    }
+  }
+
+  .clwhite {
+    color: #ffffff;
+    opacity: 0.9;
+  }
+  .policy {
+    padding-left: 22.5rem;
+    margin-top: 5rem;
+    opacity: 0.8;
+    ul {
+      display: flex;
+      li {
+        margin-right: 2rem;
+      }
+    }
+  }
+  .author{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    ul{
+        display: flex;
+        li{
+            font-size: 1.5rem;
+            margin-right: 0.75rem;
+        }
+    }
+  }
+}
