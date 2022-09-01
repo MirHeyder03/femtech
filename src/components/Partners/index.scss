@@ -1,0 +1,24 @@
+.partners-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 3rem;
+
+  h3 {
+    padding: 4rem 19rem 4rem;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .partners {
+    margin: 0 auto;
+    display: flex;
+    max-height: 25rem;
+    max-width: 67rem;
+    flex-wrap: wrap;
+    .partners-img {
+      margin: 1rem;
+    }
+  }
+}
