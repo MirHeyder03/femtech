@@ -1,0 +1,31 @@
+.success-section {
+  background-color: #00f4cb !important;
+  padding: 3rem;
+  text-align: center;
+  color: #15009b !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  h4 {
+    font-size: 2.2rem;
+    text-align: start;
+    margin: 3rem;
+  }
+
+  & > div {
+    display: flex;
+    justify-content: center;
+
+    & > div {
+      line-height: 1.5rem;
+      width: 14rem;
+
+      h5 {
+        font-size: 1.4rem;
+        margin: 0.5rem;
+      }
+    }
+  }
+}

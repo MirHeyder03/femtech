@@ -1,0 +1,21 @@
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  h4 {
+    margin: 2.5rem 10rem 2rem 0;
+    color: #ff2f0e !important;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p {
+    line-height: 1.5rem;
+  }
+  iframe {
+    width: 32rem;
+    height: 19rem;
+    margin: 2rem;
+  }
+}

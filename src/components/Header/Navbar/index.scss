@@ -6,33 +6,51 @@ header {
   justify-content: space-between;
   align-items: center;
   color: white;
- 
-    .logo-img{
-      margin: 2rem;
-      max-width: 8rem;
-    }
-  & > nav ul {
-    display: flex;
 
-    li {
-      padding-right: 1.35rem;
-      padding: 1rem;
-      .dropdown {
-        color: white;
-        font-weight: bold;
-        font-style: normal;
-        text-transform: uppercase;
-        font-size: 14px;
-      }
-      .job-board-btn {
-        background-color: #7bdcb5 !important;
-        color: white;
-        font-weight: bold;
-        font-style: normal;
-        text-transform: uppercase;
-        border-radius: 25px;
-        color: rgb(2, 3, 129);
+  .logo .logo-img {
+    margin: 2rem;
+    max-width: 8rem;
+  }
+  & > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+      li {
+        margin-right: 1.5rem;
+        .dropdown {
+          color: white;
+          font-weight: bold;
+          font-style: normal;
+          text-transform: uppercase;
+          font-size: 14px;
+        }
+        .job-board-btn {
+          background-color: #7bdcb5 !important;
+          color: white;
+          font-weight: bold;
+          font-style: normal;
+          text-transform: uppercase;
+          border-radius: 25px;
+          color: rgb(2, 3, 129);
+          padding: 0.85rem;
+        }
+        .down-icon{
+          cursor: pointer;
+        }
+
       }
     }
   }
 }
+
+/* 
+        
+        
+                
+        
+        */

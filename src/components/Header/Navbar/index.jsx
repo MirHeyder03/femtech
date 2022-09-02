@@ -14,27 +14,26 @@ const Navbar = () => {
         <ul>
           <li>
             <Link className="dropdown" to="/">About Us</Link>
-            <BiChevronDown />
+            <BiChevronDown className="down-icon" />
           </li>
           <li>
             <Link className="dropdown" to="/">What we do</Link>
-            <BiChevronDown />
+            <BiChevronDown className="down-icon" />
           </li>
           <li>
             <Link className="dropdown" to="/">Where we are</Link>
-            <BiChevronDown />
+            <BiChevronDown className="down-icon" />
           </li>
           <li>
             <Link  className="dropdown" to="/">Events</Link>
-            <BiChevronDown />
+            <BiChevronDown className="down-icon" />
           </li>
           <li>
             <Link className="dropdown" to="/">Videos</Link>
-            <BiChevronDown />
           </li>
           <li>
             <Link className="dropdown" to="/">Get Involved</Link>
-            <BiChevronDown />
+            <BiChevronDown className="down-icon" />
           </li>
           <li>
             <Link className="dropdown" to="">
